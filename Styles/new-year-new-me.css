@@ -100,7 +100,7 @@
 /* section mindset style */
 .mindset-container{
     width: 1600px;
-    background-image:url('/images/watch.png'),url('/images/gradient3.png');
+    background-image:url('../images/watch.png'),url('../images/gradient3.png');
     background-blend-mode: overlay;  
     padding-top: 59px;
     padding-bottom: 59px;
