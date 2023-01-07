@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* header styles */
+.header{
+
+    width: 1600px;
+    height: 800px;
+    background-image: url('../images/banner/banner1.png')
+}
+.header-elements{
+    text-align: right;
+    padding-top: 216px;
+    padding-left: 845px;
+    padding-bottom: 166px;
+    padding-right: 230px;
+}
+.header-headings{
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+}
+.header-paragraph{
+    color: #444343;
+    margin-top: 24px;
+}
+.primary-button{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    background: #F15B22;
+    border-radius: 5px;
+    margin-top: 32px;
+}
+/* section "My failures of previous year" styles */
+.previous-year{
+    display: flex;
+    width: 1600px;
+    
+}
+.previous-year-banner{
+    padding-top: 135px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+.previous-year-blogs{
+    padding-top: 370px;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+.previous-year-blogs-headings{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 24px;
+    padding-right: 100px;
+}
+.previous-year-blogs-paragraph{
+    color: #444343;
+    font-size: 18px;
+    
+}
+.previous-year-blogs-points{
+    list-style-type: "☑  ";
+    color: #444343;
+    font-size: 19px;
+    margin-top: 17px;
+}
+/*section  my plans styles */
+.plan{
+    width: 1600px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 56px;
+}
+.plan-categories{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.plan-heading{
+    font-weight: 700;
+    font-size: 30px;
+}
+.plan-paragraph{
+    font-weight: 500;
+    font-size: 25px;
+}
+/* section mindset style */
+.mindset{
+    width: 1600px;
+    background-image:url('/images/watch.png'),url('/images/gradient3.png');
+    background-blend-mode: overlay;  
+    padding-top: 59px;
+    padding-bottom: 59px;
+    padding-left: 64px;
+    padding-right: 617px;
+    background-repeat: no-repeat;
+    margin:130px 230px;
+}
+.mindset-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+.white-button{
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding: 20px 36px;
+    border-radius: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+/* styles footer */
+footer{
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #151414;
+}
+.footer-headings{
+    margin-bottom:16px;
+
+}
+.footer-email{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.footer-phone{
+    margin-bottom: 32px;
+}
+.footer-items{
+    padding-top: 106px;
+    padding-left: 230px;
+    padding-bottom: 154px;
+    padding-right: 331px;
+    color: #FFFFFF;
+}
+.footer-subscription{
+    padding-top: 105px;
+    padding-bottom: 267px;
+    padding-right: 229px;
+}
+.subscription-title{
+    
+color: #FFFFFF;
+font-weight: 600;
+font-size: 25px;
+}
+
+.subscription-email{
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    padding-top: 21px;
+    padding-left: 21px;
+    padding-bottom: 22px;
+    padding-right: 158px;
+    background-color:#151414; ;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-top: 31px;
+    margin-bottom: 15px;
+
+}
